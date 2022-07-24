@@ -3,6 +3,7 @@
 #include<sstream>
 #include<string>
 #include<queue>
+
 using namespace std;
 struct Node
 {
@@ -74,3 +75,4 @@ void LL2();
 void LL3();
 void AVLChoice(Card*& root, int& check);
 void LinkListChoice(Node*& a,int& check);
+void search(Card* root, string ID, Card*& a);

@@ -384,6 +384,7 @@ void Remove3(Card*& root, Card* a)
 		return;
 	balance(root);
 }
+//Remove when same properties 
 void Remove4(Card*& root, Card* a)
 {
 	if (root == NULL) return;
@@ -648,7 +649,9 @@ void Rebuild2(string filename, Card*& root)
 		a->Armor = stoi(s);
 		a->left = NULL;
 		a->right = NULL;
-		Remove2(root, a);
+		Card* temp = NULL;
+		search(root, a->ID, temp);
+		if(temp!= NULL) Remove2(root, temp);
 		Insert2(root, a);
 	}
 	int i = 0;
@@ -708,7 +711,9 @@ void Rebuild3(string filename, Card*& root)
 		a->Armor = stoi(s);
 		a->left = NULL;
 		a->right = NULL;
-		Remove3(root, a);
+		Card* temp = NULL;
+		search(root, a->ID, temp);
+		if(temp != NULL) Remove3(root, temp);
 		Insert3(root, a);
 	}
 	int i = 0;
@@ -1460,5 +1465,29 @@ void LinkListChoice(Node*& a, int& check)
 	{
 		check = 0; 
 		return;
+	}
+}
+void search(Card* root, string ID, Card*& a)
+{
+	//Em dùng BFS để tìm kiếm do dữ liệu đầu vào của em nhập không thể so sánh đường đi
+	if (root == NULL) return;
+	queue<Card*> bf_queue;
+	bf_queue.push(root);
+	/* Vòng lặp kết thúc khi queue rỗng */
+	while (!bf_queue.empty()) {
+		Card* current = bf_queue.front();
+		bf_queue.pop(); /* Lấy phần tử đầu tiên ra khỏi queue */
+		if (current->ID == ID)
+		{
+			a = current;
+			break;
+		}
+		/* Enqueue con trái và con phải của current vào bf_queue.*/
+		if (current->left != NULL) {
+			bf_queue.push(current->left);
+		}
+		if (current->right != NULL) {
+			bf_queue.push(current->right);
+		}
 	}
 }
