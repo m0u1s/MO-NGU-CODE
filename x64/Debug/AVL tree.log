@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\LENOVO\source\repos\HK3_năm 1\AVL tree\AVL tree\Source.cpp(7,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\LENOVO\source\repos\HK3_năm 1\AVL tree\AVL tree\Source.cpp(253,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  AVL tree.vcxproj -> C:\Users\LENOVO\source\repos\HK3_năm 1\AVL tree\x64\Debug\AVL tree.exe

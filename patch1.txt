@@ -1,0 +1,16 @@
+id;name;set;type;collectible;mana;attack;health;armor
+ART_BOT_Bundle_001;Golden Legendary;TB;MINION;False;0;0;0;6
+AT_001;Flame Lance;TGT;SPELL;True;5;18;110;5
+AT_002;Effigy;TGT;SPELL;True;3;3;147;7
+AT_003;Fallen Hero;TGT;MINION;True;2;3;2;0
+AT_004;Arcane Blast;TGT;SPELL;True;1;15;29;6
+AT_005;Polymorph: Boar;TGT;SPELL;True;3;9;170;2
+AT_005t;Boar;TGT;MINION;False;3;4;2;2
+AT_006;Dalaran Aspirant;TGT;MINION;True;4;3;5;6
+AT_006e;Power of Dalaran;TGT;ENCHANTMENT;False;1;21;148;3
+AT_007;Spellslinger;TGT;MINION;True;3;3;4;5
+Zuran Enchanter;Zuran Enchanter;PROMO;WEAPON;True;4;8;7;6
+Zuran Orb;Zuran Orb;BRM;MINION;True;8;12;161;3
+Zuran Spellcaster;Zuran Spellcaster;LOE;HERO_POWER;True;10;22;140;4
+Zurgo Bellstriker;Zurgo Bellstriker;REWARD;HERO;False;5;16;199;0
+Zurgo Helmsmasher;Zurgo Helmsmasher;TGT;MINION;False;10;8;11;2

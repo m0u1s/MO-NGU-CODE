@@ -1,0 +1,14 @@
+id;name;set;type;collectible;mana;attack;health;armor
+ART_BOT_Bundle_001;Golden Legendary;TB;MINION;False;5;2;3;6
+AT_003;Fallen Hero;TGT;MINION;True;2;13;2;0
+AT_001;Flame Lance;TGT;SPELL;True;5;18;110;7
+AT_002;Effigy;TGT;SPELL;True;3;3;20;7
+Zurzoth, Chaos Rider;Zurzoth, Chaos Rider;TGT;SPELL;False;11;5;135;6
+Zyym, Mesmeric Lord;Zyym, Mesmeric Lord;CORE;ENCHANTMENT;False;2;16;112;3
+Zzzyxas's Abyss;Zzzyxas's Abyss;BRM;HERO_POWER;False;0;15;85;6
+_____;_____;CORE;HERO;True;10;0;137;0
+capital offense;capital offense;LOE;ENCHANTMENT;False;2;9;187;2
+remove
+Zuran Orb;Zuran Orb;BRM;MINION;True;8;12;161;3
+Zuran Spellcaster;Zuran Spellcaster;LOE;HERO_POWER;True;10;22;140;4
+Zuran Enchanter;Zuran Enchanter;PROMO;WEAPON;True;4;8;7;6

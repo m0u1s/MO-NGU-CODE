@@ -1,0 +1,3 @@
+- Code gồm 3 file: main.cpp, header.h, source.cpp.
+- Đặt 2 file data chung thư mục với các file code.
+- Code sẽ chạy ra một menu chọn người dùng sẽ chọn theo hướng dẫn của chương trình để thực hiện.
